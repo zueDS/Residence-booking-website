@@ -1,0 +1,5 @@
+#dipendency directories 
+node_modules/
+
+#dotenv
+.env
