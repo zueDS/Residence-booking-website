@@ -92,7 +92,7 @@ export const createUser = asyncHandler(async (req, res) => {
     }
   })
 
-  // add residence to your favourite list
+  // add residence to your favorite list
   export const toFav = asyncHandler(async(req, res) => {
     const {email} = req.body;
     const {rid} = req.params;
@@ -110,7 +110,7 @@ export const createUser = asyncHandler(async (req, res) => {
                     }
                 }
             })
-            res.send({message: "Removed from favourites", user: updateUser})
+            res.send({message: "Removed from favorites", user: updateUser})
         }else{
             const updateUser = await prisma.user.update({
                 where: {email},
@@ -120,8 +120,22 @@ export const createUser = asyncHandler(async (req, res) => {
                     }
                 }
             })
-            res.send({message: "Updated favourites", user: updateUser})
+            res.send({message: "Updated favorites", user: updateUser})
         }
+    }catch(err){
+        throw new Error(err.message);
+    }
+  })
+  // Get all favorites residence list
+  export const getAllFavorites = asyncHandler(async(req, res) => {
+    const {email} = req.body;
+
+    try{
+        const favResd = await prisma.user.findUnique({
+            where: {email},
+            select: {favResidenciesID: true}
+        })
+        res.status(200).send(favResd)
     }catch(err){
         throw new Error(err.message);
     }
