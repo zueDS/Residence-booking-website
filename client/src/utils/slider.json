@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Evergreen Pride Garden",
+      "price": "47,043",
+      "detail": "Cancelle City Street, Narahenpita, Colombo 05",
+      "image": "./r1.png"
+    },
+    {
+      "name": "Agasthi City Line",
+      "price": "66,353",
+      "detail": "No 50A, George Steuart Street, Havelock Town, Colombo 05",
+      "image": "./r2.png"
+    },
+    {
+      "name": "ALTAIR By Miracle",
+      "price": "55,853",
+      "detail": "Altair Ave, Colombo 02",
+      "image": "./r3.png"
+    },
+    {
+      "name": "Lakeside Grove",
+      "price": "47,043",
+      "detail": "No 55B, Upper Lake Road, Nuwara Eliya",
+      "image": "./r4.jpg"
+    },
+    {
+      "name": "Willow Brook Residences",
+      "price": "66,353",
+      "detail": "1080, Trincomalee Street, Matale",
+      "image": "./r5.jpg"
+    },
+    {
+      "name": "Parkside Haven",
+      "price": "35,853",
+      "detail": "Coconut Board Road, Kalkudah 30410",
+      "image": "./r6.jpg"
+    },
+    {
+      "name": "Cascade Residences",
+      "price": "45,633",
+      "detail": "Moon Plains Road, Upper Lake Rd, Nuwara Eliya",
+      "image": "./r7.jpg"  
+    },
+    {
+      "name": "Verdant Valley",
+      "price": "25,633",
+      "detail": "St Anne Street, Nanumulla, Pasikuda",
+      "image": "./r8.jpg"  
+    },
+    {
+      "name": "The Garden View Residences",
+      "price": "50,450",
+      "detail": "No 23, Galkanda Road, Galle",
+      "image": "./r9.jpg"  
+    },
+    {
+      "name": "Tranquil Haven",
+      "price": "44,333",
+      "detail": "No 4/56, Hotel Road, Sigiriya",
+      "image": "./r10.jpg"  
+    }
+  ]
