@@ -3,3 +3,6 @@ node_modules/
 
 #dotenv
 .env
+
+#directorie files
+.DS_Store
