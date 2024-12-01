@@ -1,10 +1,13 @@
 import { Suspense } from 'react';
-import './App.css'
-import Website from "./pages/Website"
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from "./components/Layout/Layout"
+import './App.css';
+import Website from "./pages/Website";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from "./components/Layout/Layout";
 import Properties from './pages/Properties/Properties';
-import { QueryClient, QueryClientProvider } from 'react-query'
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
@@ -23,6 +26,8 @@ function App() {
       </Routes>
     </Suspense>
     </BrowserRouter>
+    <ToastContainer/>
+    <ReactQueryDevtools initialIsOpen = {false}/>
     </QueryClientProvider>
   );
 }
