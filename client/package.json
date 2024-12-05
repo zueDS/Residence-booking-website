@@ -11,6 +11,11 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "2.0.1",
+    "@emotion/react": "^11.13.5",
+    "@mantine/core": "^7.14.3",
+    "@mantine/dates": "^7.14.3",
+    "@mantine/form": "^7.14.3",
+    "@mantine/hooks": "^7.14.3",
     "axios": "^1.7.8",
     "dayjs": "^1.11.13",
     "esri-leaflet-geocoder": "2.3.3",
