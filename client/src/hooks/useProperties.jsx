@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from 'react-query'
-import { getAllProperties } from '../../utils/api';
+import { getAllProperties } from '../utils/api';
 
 
 const useProperties = () => {
@@ -9,8 +9,11 @@ const useProperties = () => {
         "allProperties", getAllProperties, {refetchOnWindowFocus: false}
     );
   return {
-    data, isError, isLoading, refetch
-  }
-}
+    data, 
+    isError,
+    isLoading, 
+    refetch,
+  };
+};
 
 export default useProperties
