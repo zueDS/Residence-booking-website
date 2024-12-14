@@ -5,7 +5,7 @@ import './Residencies.css'
 import data from '../../utils/slider.json'
 import { sliderSettings } from '../../utils/common';
 import PropertyCard from '../PropertyCard/PropertyCard'
-import useProperties from '../hooks/useProperties'
+import useProperties from '../../hooks/useProperties'
 import { PuffLoader } from 'react-spinners'
 
 const Residencies = () => {
